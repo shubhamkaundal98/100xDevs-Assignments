@@ -11,6 +11,7 @@ let requestCount = 0;
 // requestCount variable
 
 app.get('/user', function(req, res) {
+  //demo solution done
   res.status(200).json({ name: 'john' });
 });
 
