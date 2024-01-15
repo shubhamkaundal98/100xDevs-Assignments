@@ -1,0 +1,49 @@
+.card {
+    border: solid 1px gray;
+    border-radius: 8px;
+    max-width: 20%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.1);
+    background-color: #f8f9fa;
+}
+
+.name {
+    font-size: 24px;
+    color: #333;  
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+}
+
+.interest {
+    font-size: 18px;
+    color: #333;
+}
+
+.list-items {
+    font-size: 14px;
+    color : #555
+}
+
+.links {
+    display: flex;
+    margin-bottom:15px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    padding:15px 20px;
+    margin-right:20px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color:white;
+    text-decoration: none;
+}
